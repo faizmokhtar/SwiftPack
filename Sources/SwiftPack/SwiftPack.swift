@@ -1,3 +1,3 @@
-struct SwiftPack {
-    var text = "Hello, World!"
+public struct SwiftPack {
+    public var text = "Hello, World!"
 }
