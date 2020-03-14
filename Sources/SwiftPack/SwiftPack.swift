@@ -1,3 +1,7 @@
 public struct SwiftPack {
-    public var text = "Hello, World!"
+    public var text: String
+
+    public init(text: String) {
+        self.text = text
+    }
 }

@@ -3,10 +3,9 @@ import XCTest
 
 final class SwiftPackTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(SwiftPack().text, "Hello, World!")
+        let result = SwiftPack(text: "Hello, World!").text
+
+        XCTAssertEqual(result, "Hello, World!")
     }
 
     static var allTests = [
